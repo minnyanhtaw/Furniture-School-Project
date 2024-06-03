@@ -122,3 +122,21 @@
   gap: 30px;
 }
 
+.sec-section {
+  padding: 60px 30px 40px 30px;
+}
+.sec-section-container {
+
+}
+.sec-section-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.sec-section-heading {
+  font-size: 45px;
+  font-weight: 500;
+}
+.view-all-link {
+  color: black;
+}
