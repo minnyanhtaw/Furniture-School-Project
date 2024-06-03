@@ -126,7 +126,6 @@
   padding: 60px 30px 40px 30px;
 }
 .sec-section-container {
-
 }
 .sec-section-header-container {
   display: flex;
@@ -139,4 +138,9 @@
 }
 .view-all-link {
   color: black;
+}
+.homepage-product-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
 }

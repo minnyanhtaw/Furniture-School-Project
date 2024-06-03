@@ -64,16 +64,29 @@
             <h2 class="sec-section-heading">NEW ARRIVALS</h2>
             <a href="#" class="view-all-link">View all</a>
           </div>
-          <div class="homepage-product-container">
-            <div>
-              <img
-                src="https://assets-global.website-files.com/630c6fde459f67ef1a691e70/632c1f77033fb97c81a71623_LP%20001.jpg"
-                alt=""
-              />
-            </div>
-          </div>
+          <div
+            id="homepage-product-group"
+            class="homepage-product-container"
+          ></div>
         </div>
       </section>
+
+      <template id="homepage-product-template" class="">
+        <div class="homepage-product-card">
+          <img
+            class="homepage-product-image"
+            src="https://assets-global.website-files.com/630c6fde459f67ef1a691e70/632c1f77033fb97c81a71623_LP%20001.jpg"
+            alt=""
+          />
+          <h3 class="homepage-product-name">Coco</h3>
+          <p class="">
+            $
+            <span class="homepage-product-price">650.00</span>
+            USD
+          </p>
+          <p class="homepage-product-category">Dinning Chairs</p>
+        </div>
+      </template>
     </main>
     <script type="module" src="/main.js"></script>
   </body>
