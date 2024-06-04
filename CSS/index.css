@@ -246,3 +246,53 @@
 .bedroom-set-link {
   color: white;
 }
+
+/* ===== Fourth Section ===== */
+
+.fourth-section {
+  padding: 60px 30px 60px 30px;
+}
+.fourth-section-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 50px;
+}
+.advantage-content {
+  flex-basis: 60%;
+}
+.advantage-img-container {
+  flex-basis: 40%;
+  height: 470px;
+}
+.advantage-heading {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.advantage-para {
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: rgb(65, 65, 65);
+
+}
+.count-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.count-box {
+}
+.count-number {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.count-text {
+  width: 90px;
+  line-height: 30px;
+}
+
+.advantage-img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
