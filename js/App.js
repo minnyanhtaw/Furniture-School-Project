@@ -1,12 +1,11 @@
-import initialRender from "./core/initialRender";
-import listener from "./core/listener";
-import { createHomePageProduct } from "./core/product";
+import initialRender from "./core/initialRender.js";
+import listener from "./core/listener.js";
 
 class App {
   init() {
     console.log("App start");
-    listener();
     initialRender();
+    listener();
   }
 }
 export default App;

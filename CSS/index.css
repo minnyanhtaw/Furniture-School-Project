@@ -131,6 +131,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 40px;
 }
 .sec-section-heading {
   font-size: 45px;
@@ -142,5 +143,28 @@
 .homepage-product-container {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 30px;
+}
+.homepage-product-card {
+}
+.homepage-product-image-container {
+  overflow: hidden;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.homepage-product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 300ms;
+}
+.homepage-product-image:hover {
+  transform: scale(110%);
+}
+.homepage-product-name {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.homepage-product-price {
 }
