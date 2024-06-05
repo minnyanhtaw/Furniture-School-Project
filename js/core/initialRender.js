@@ -1,7 +1,7 @@
 import { products } from "./data.js";
-import { renderProduct } from "./product.js";
+import { renderHomePageProduct } from "./product.js";
 
 const initialRender = () => {
-  renderProduct(products);
+  renderHomePageProduct(products);
 };
 export default initialRender;

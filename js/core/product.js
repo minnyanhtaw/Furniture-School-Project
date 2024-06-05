@@ -11,7 +11,7 @@ export const createHomePageProduct = (product) => {
   return template;
 };
 
-export const renderProduct = (products) => {
+export const renderHomePageProduct = (products) => {
   products.filter(
     (product) =>
       product.category == "Dinning Chairs" &&
