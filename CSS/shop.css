@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.first-section-container {
+  padding: 0 30px 0 30px;
+}
+.header {
+  height: 20vh;
+}
+.header-container {
+  /* border: 1px solid black; */
+}
+.nav {
+  padding: 25px 0 25px 0;
+  display: flex;
+  width: 100%;
+}
+.nav-list-group {
+  display: flex;
+  list-style-type: none;
+  flex-basis: 33.33%;
+  justify-content: start;
+  gap: 30px;
+}
+.nav-list {
+  color: black;
+  z-index: 1;
+}
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+.nav-list button {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+.logo-container {
+  display: flex;
+  flex-basis: 33.33%;
+  justify-content: center;
+}
+.logo-img {
+  z-index: 1;
+}
+
+.shop-heading {
+  font-size: 90px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px 0;
+}
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category-item {
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: 100ms;
+}
+.category-item:active {
+  transform: scale(0.95);
+}
